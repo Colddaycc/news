@@ -3,12 +3,12 @@
  */
 package com.ldw.music;
 
-import java.io.File;
+import android.app.Application;
+import android.os.Environment;
 
 import com.ldw.music.service.ServiceManager;
 
-import android.app.Application;
-import android.os.Environment;
+import java.io.File;
 
 public class MusicApp extends Application {
 	
